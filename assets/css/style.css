@@ -162,3 +162,31 @@ footer {
     vertical-align: middle;
     line-height: 50px;
 }
+
+@media screen and (max-width: 980px) {
+    .mediumScreen {
+        max-width: 900px;
+        width: 100%;
+        /*display: block;
+        margin-left: 40px;
+        margin-right: auto;*/
+    }
+
+    .smallScreen {
+        float: left;
+        margin-left: 40px;
+        max-width: 680px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+    .mediumScreen {
+        max-width: 680px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+}
